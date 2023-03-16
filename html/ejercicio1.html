@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #1</title>
+</head>
+<body>
+    <h1>Zoo Keeper Application Fron</h1>
+    <p><em>Please complete the form. Mandatory fields are marked with a *</em></p>
+
+    <form action="">
+    <fieldset>
+        <legend><strong> Contact Details</strong> </legend> <br>
+        <label for="">Name</label>  
+        &nbsp; <input type="text" maxlength="60" autofocus required> <br><br>
+        Telephone &nbsp; <input type="tel" name="telefono"  required> <br><br>
+        Email &nbsp; <input type="email" maxlength="30" autofocus required>
+    </fieldset> <br>
+
+    <fieldset>
+        <label for="">Age</label>
+        <legend><strong> Personal Information</strong></legend>
+         &nbsp; <input type="number" min="18" autofocus required><br><br>
+         Gender 
+        <select>        
+         <option value="SG">Seleccione su genero</option>
+         <option value="KT">Male</option>
+         <option value="FT">Female</option>
+        </select> <br><br>
+         <table>
+            <tr>
+                <td style="vertical-align: super;">Whe did you <br>
+                    first know you <br>
+                      wanted to be a <br>
+                      zoo-keeper?<br></td>
+                    </td>
+                    <td>
+                        <textarea style="overflow-y: scroll;" id="" cols="30" rows="10"></textarea>
+                    </td>
+            </tr>
+         </table>
+    </fieldset>
+ <fieldset>
+    <legend><strong>Pick Your Favorite Animals</strong></legend>
+ <input type="checkbox"> Zebra &nbsp;
+ <input type="checkbox"> Cat &nbsp;
+ <input type="checkbox"> Anaconda &nbsp;
+ <input type="checkbox"> Human &nbsp; <br><br>
+ <input type="checkbox"> Elephant &nbsp;
+ <input type="checkbox"> Wildebeest &nbsp;
+ <input type="checkbox"> Pigeon &nbsp;
+ <input type="checkbox"> Crab &nbsp;
+
+ </fieldset> <br>
+
+ <input type="submit" value="Submit Application">
+
+
+</form>
+</body>
+</html>
